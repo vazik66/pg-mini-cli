@@ -69,11 +69,3 @@ func (c *client) DeleteDatabase(database string) error {
     defer rows.Close() 
     return nil
 }
-
-func (c *client) CreateBackup(database string, backupName string) error {
-    return nil
-}
-
-func (c *client) RestoreFromBackup(backupName string) (error){
-    return nil
-}

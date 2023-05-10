@@ -9,7 +9,7 @@ Utility should be able to connect to DB and perform following operations:
 
 ## Install
 ```shell
-go install github.com/vazik66/pg-mini-cli
+go install github.com/vazik66/pg-mini-cli@latest
 ```
 ## How to use
 Default `--host` is localhost and `--port` is 5432 
